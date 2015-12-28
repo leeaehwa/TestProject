@@ -9,8 +9,6 @@ public class User {
 
     private int age;
 
-    private boolean gender;
-
     public String getName() {
         return name;
     }
@@ -25,13 +23,5 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public boolean isGender() {
-        return gender;
-    }
-
-    public void setGender(boolean gender) {
-        this.gender = gender;
     }
 }
