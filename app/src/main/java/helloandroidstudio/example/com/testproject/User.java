@@ -9,6 +9,8 @@ public class User {
 
     private int age;
 
+    private boolean gender;
+
     public String getName() {
         return name;
     }
