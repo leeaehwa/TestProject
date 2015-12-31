@@ -24,11 +24,11 @@ android {
 
     buildTypes {
         release {
-            signingConfig signingConfigs.release    // 여기
             debuggable false // debugging 허용 안함
             //zipAlign true  // apk 최적화
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release    // 여기
         }
     }
 }
